@@ -8,6 +8,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+
+
 class CustomAdapter : RecyclerView.Adapter<CustomAdapter.Myholder> {
     private var c: Activity? = null
     private var databuah: Array<String>? = null
